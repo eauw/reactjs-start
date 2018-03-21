@@ -3,7 +3,7 @@
 reactjs-start is a basic ReactJS-Startproject including browserify for bundling and http-server for development.
 
 ## First Steps
-Run `npm install` to get all dependencies.
+Clone this repository and run `npm install` to get all dependencies.
 
 ## Scripts
 ### build
