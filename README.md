@@ -14,3 +14,5 @@ Clone this repository and run `npm install` to get all dependencies.
 
 ### server
 `npm run server` starts a http-server to serve the webapp on http://localhost:8080.
+
+Flag `-c-1` is set to disable cache.

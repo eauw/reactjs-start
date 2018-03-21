@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify --debug -o public/app.js .",
-    "server": "http-server ./public",
+    "server": "http-server -c-1 ./public",
     "watch": "watchify -v --debug -o public/app.js ."
   },
   "author": "",
