@@ -2,9 +2,15 @@
 
 reactjs-start is a basic ReactJS-Startproject including browserify for bundling and http-server for development.
 
-## Steps
-1. `npm install`
-2. `npm run build`
-3. `npm run server`
+## First Steps
+Run `npm install` to get all dependencies.
 
-Now You can see your app in your webbrowser on http://localhost:8080
+## Scripts
+### build
+`npm run build` bundles all .js-files into public/app.js
+
+### watch
+`npm run watch` similar to build but works incremental. Recommended during development process.
+
+### server
+`npm run server` starts a http-server to serve the webapp on http://localhost:8080.
