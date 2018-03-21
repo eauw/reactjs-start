@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify --debug -o public/app.js .",
-    "server": "http-server ./public"
+    "server": "http-server ./public",
+    "watch": "watchify -v --debug -o public/app.js ."
   },
   "author": "",
   "license": "MIT",
@@ -21,7 +22,8 @@
     "babel-preset-react": "^6.24.1",
     "babelify": "^8.0.0",
     "browserify": "^16.1.1",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "watchify": "^3.11.0"
   },
   "browser": "src/index.js",
   "browserify": {
