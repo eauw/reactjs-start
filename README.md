@@ -1,6 +1,6 @@
 # README
 
-reactjs-start is a basic ReactJS-Startproject including a browserify for bundling and http-server for development.
+reactjs-start is a basic ReactJS-Startproject including browserify for bundling and http-server for development.
 
 ## Steps
 1. `npm install`
